@@ -1,4 +1,4 @@
-    % EEG Emotion Recognition DL model validation
+% EEG Emotion Recognition DL model validation
 % Step 4: Model Evaluation 
 % by: Diego Caro López
 % last edited: 09-Jan-2025
@@ -42,9 +42,7 @@ for i = 1:size(files,1)
 end
 
 % Load DL model
-load('C:\Users\dgcar\OneDrive\Documents\Aura\mat_tests\Models\CrossVal\CVModels.mat')
-% load('D:\valid\seed_vii\19-Nov-2025.mat');
-dcaro_net = models{10};
+load('D:\valid\seed_vii\19-Nov-2025.mat');
 
 fprintf('\n Done... \n\n')
 

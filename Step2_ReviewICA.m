@@ -10,7 +10,7 @@
 clear
 clc
 close all
-savedata = 'Yes';
+savedata = 'No';
 
 %% Step 1: Loading data
 fprintf('\n===== Step 1: Loading data =====\n\n');

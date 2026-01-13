@@ -19,8 +19,7 @@ folder = 'D:\valid\seed_vii\EEG_raw\';
 files = dir(folder);
 files = files(~[files.isdir]);
 
-% for id = 1:size(files,1)
-for id = 54:size(files,1)
+for id = 1:size(files,1)
     fprintf('\n===== Step 1: Loading data =====\n\n');
     file = files(id).name;
     sub = split(file,'_');
