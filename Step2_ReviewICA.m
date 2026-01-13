@@ -30,7 +30,7 @@ fprintf('\n===== Step 2: Label Components =====\n\n');
 
 EEG = pop_iclabel(EEG,'default');
 pop_viewprops(EEG,0,1:size(EEG.icaact,1),{'freqrange',[1 50]},{},1,'ICLabel');
-reject = [1 2 3 4 5 7 8 11 12 13 15 16 18 19 20 21 22 23 24 25 26 28 30 31 32 33 34 35 37 38 41 42 43 44 45 46 48 49 50 51 52 53 54 55 56 57 58 59];
+reject = [];
 
 fprintf('\n Done...\n\n');
 
